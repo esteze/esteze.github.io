@@ -1,6 +1,6 @@
 :root {
     --primaryText: #fff;
-    --secondaryText: #ff015e;
+    --secondaryText: #ffeded;
     --primary: rgba(146, 61, 37, 0.562);
     --secondary: rgba(255, 1, 94, .60); 
     --buttonHover: rgba(176, 39, 126, 0.4);
@@ -36,6 +36,7 @@ body {
     background-size: cover;
     font-family: "Space Mono", monospace;
     font-weight: 550;
+    text-shadow: 0px 0px 5px rgb(63, 26, 7);
     line-height: 1.5;
     font-size: 18px;
     display: flex;
@@ -60,6 +61,7 @@ img {
     height: 150px;
     max-width: 100%;
     object-fit: cover;
+    filter: drop-shadow(0px 0px 10px #000000a0);
     /* Resizes the image to cover the entire container */
 }
 
@@ -89,7 +91,7 @@ img {
 }
 
 .name strong {
-    background-color: rgba(0, 0, 0, 0.50);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .section-header {
